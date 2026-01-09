@@ -25,62 +25,62 @@ export default function Contact() {
   };
 
   return (
-    <section className="py-20" id="contact">
-      <div className="container-custom">
-        <div className="glass-panel p-8 md:p-12 rounded-2xl">
-          <div className="grid md:grid-cols-2 gap-12">
+    <section className="py-12 md:py-20" id="contact">
+      <div className="container-custom px-4">
+        <div className="glass-panel p-4 md:p-8 lg:p-12 rounded-2xl">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12">
             {/* Contact Info */}
             <div>
-              <h2 className="text-4xl font-bold mb-4">Neem Contact Op</h2>
-              <p className="text-gray-400 mb-8">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-4">Neem Contact Op</h2>
+              <p className="text-sm md:text-base text-gray-400 mb-6 md:mb-8">
                 Heeft u vragen of speciale wensen? Wij staan 24/7 voor u klaar.
               </p>
 
-              <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="text-3xl">📞</div>
+              <div className="space-y-4 md:space-y-6">
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="text-2xl md:text-3xl">📞</div>
                   <div>
-                    <div className="font-semibold mb-1">Bel Ons</div>
+                    <div className="font-semibold mb-1 text-sm md:text-base">Bel Ons</div>
                     <div className="space-y-1">
-                      <a href="tel:+31634145806" className="text-primary hover:underline block">
+                      <a href="tel:+31634145806" className="text-primary hover:underline block text-sm md:text-base">
                         +31 6 341 458 06
                       </a>
-                      <a href="tel:+31687667013" className="text-primary hover:underline block">
+                      <a href="tel:+31687667013" className="text-primary hover:underline block text-sm md:text-base">
                         +31 6 876 670 13
                       </a>
                     </div>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="text-3xl">✉️</div>
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="text-2xl md:text-3xl">✉️</div>
                   <div>
-                    <div className="font-semibold mb-1">Email Ons</div>
-                    <a href="mailto:kimiataxi@maarssen.nl" className="text-primary hover:underline">
+                    <div className="font-semibold mb-1 text-sm md:text-base">Email Ons</div>
+                    <a href="mailto:kimiataxi@maarssen.nl" className="text-primary hover:underline text-sm md:text-base">
                       kimiataxi@maarssen.nl
                     </a>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="text-3xl">📍</div>
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="text-2xl md:text-3xl">📍</div>
                   <div>
-                    <div className="font-semibold mb-1">Locatie</div>
-                    <span className="text-gray-400">Maarssen, Nederland</span>
+                    <div className="font-semibold mb-1 text-sm md:text-base">Locatie</div>
+                    <span className="text-gray-400 text-sm md:text-base">Maarssen, Nederland</span>
                   </div>
                 </div>
               </div>
 
-              <div className="mt-8 p-6 bg-primary/10 rounded-xl">
-                <h3 className="text-xl font-semibold mb-2">Direct een rit nodig?</h3>
-                <p className="text-gray-400 mb-4">
+              <div className="mt-6 md:mt-8 p-4 md:p-6 bg-primary/10 rounded-xl">
+                <h3 className="text-lg md:text-xl font-semibold mb-2">Direct een rit nodig?</h3>
+                <p className="text-sm md:text-base text-gray-400 mb-3 md:mb-4">
                   Boek nu online en ontvang direct een prijsopgave.
                 </p>
-                <div className="flex gap-3 flex-wrap">
-                  <a href="tel:+31634145806" className="btn-primary inline-block">
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <a href="tel:+31634145806" className="btn-primary inline-block text-center">
                     📞 Bel Nu
                   </a>
-                  <a href="tel:+31687667013" className="glass-panel px-6 py-3 rounded-lg hover:bg-white/10 transition-colors font-semibold inline-block">
+                  <a href="tel:+31687667013" className="glass-panel px-6 py-3 rounded-lg hover:bg-white/10 transition-colors font-semibold inline-block text-center">
                     📞 Alternatief
                   </a>
                 </div>
@@ -89,9 +89,9 @@ export default function Contact() {
 
             {/* Contact Form */}
             <div>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium mb-2">
+                  <label htmlFor="name" className="block text-xs md:text-sm font-medium mb-2">
                     Naam *
                   </label>
                   <input
@@ -101,12 +101,12 @@ export default function Contact() {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg bg-white/5 border border-glassBorder focus:border-primary focus:outline-none"
+                    className="w-full px-3 md:px-4 py-2 md:py-3 rounded-lg bg-white/5 border border-glassBorder focus:border-primary focus:outline-none text-sm md:text-base"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium mb-2">
+                  <label htmlFor="email" className="block text-xs md:text-sm font-medium mb-2">
                     Email *
                   </label>
                   <input
@@ -116,12 +116,12 @@ export default function Contact() {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg bg-white/5 border border-glassBorder focus:border-primary focus:outline-none"
+                    className="w-full px-3 md:px-4 py-2 md:py-3 rounded-lg bg-white/5 border border-glassBorder focus:border-primary focus:outline-none text-sm md:text-base"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium mb-2">
+                  <label htmlFor="phone" className="block text-xs md:text-sm font-medium mb-2">
                     Telefoon
                   </label>
                   <input
@@ -130,12 +130,12 @@ export default function Contact() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg bg-white/5 border border-glassBorder focus:border-primary focus:outline-none"
+                    className="w-full px-3 md:px-4 py-2 md:py-3 rounded-lg bg-white/5 border border-glassBorder focus:border-primary focus:outline-none text-sm md:text-base"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium mb-2">
+                  <label htmlFor="message" className="block text-xs md:text-sm font-medium mb-2">
                     Bericht *
                   </label>
                   <textarea
@@ -145,7 +145,7 @@ export default function Contact() {
                     rows={5}
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg bg-white/5 border border-glassBorder focus:border-primary focus:outline-none resize-none"
+                    className="w-full px-3 md:px-4 py-2 md:py-3 rounded-lg bg-white/5 border border-glassBorder focus:border-primary focus:outline-none resize-none text-sm md:text-base"
                   />
                 </div>
 

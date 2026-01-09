@@ -12,24 +12,24 @@ export default function CityTripsPage() {
   return (
     <div className="pt-20 pb-16">
       {/* Hero Section */}
-      <section className="min-h-[60vh] flex items-center justify-center relative overflow-hidden">
+      <section className="min-h-[50vh] md:min-h-[60vh] flex items-center justify-center relative overflow-hidden py-12 md:py-0">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-darkBg to-secondary/20"></div>
         
-        <div className="container-custom relative z-10">
+        <div className="container-custom relative z-10 px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="text-6xl mb-6">🌆</div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            <div className="text-5xl md:text-6xl mb-4 md:mb-6">🌆</div>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight">
               City Trips door <span className="text-primary">Nederland</span>
             </h1>
-            <p className="text-xl text-gray-300 mb-8">
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 md:mb-8 px-2">
               Ontdek Nederland in stijl. Wij brengen u naar alle bezienswaardigheden 
               in Amsterdam, Rotterdam, Den Haag en daarbuiten.
             </p>
-            <div className="flex gap-4 justify-center flex-wrap">
-              <a href="tel:+31634145806" className="btn-primary">
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center px-4">
+              <a href="tel:+31634145806" className="btn-primary text-center w-full sm:w-auto">
                 📞 Plan Uw Trip
               </a>
-              <Link href="/#contact" className="glass-panel px-8 py-4 rounded-lg hover:bg-white/10 transition-colors font-semibold">
+              <Link href="/#contact" className="glass-panel px-6 md:px-8 py-3 md:py-4 rounded-lg hover:bg-white/10 transition-colors font-semibold text-center w-full sm:w-auto">
                 Meer Informatie
               </Link>
             </div>
@@ -38,11 +38,11 @@ export default function CityTripsPage() {
       </section>
 
       {/* Main Content */}
-      <section className="py-16">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+      <section className="py-8 md:py-16">
+        <div className="container-custom px-4">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center mb-12 md:mb-16">
             <div>
-              <h2 className="text-4xl font-bold mb-6">Uw Persoonlijke Chauffeur</h2>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Uw Persoonlijke Chauffeur</h2>
               
               <div className="space-y-6">
                 <div className="glass-panel p-6 rounded-xl">
@@ -101,10 +101,10 @@ export default function CityTripsPage() {
           </div>
 
           {/* Popular Destinations */}
-          <div className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-center">Populaire Bestemmingen</h2>
+          <div className="mb-12 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 md:mb-8 text-center">Populaire Bestemmingen</h2>
             
-            <div className="grid md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
               <div className="glass-panel p-6 rounded-xl text-center hover:bg-white/5 transition-all">
                 <div className="text-4xl mb-3">🏛️</div>
                 <h3 className="text-xl font-bold mb-2">Amsterdam</h3>
@@ -132,10 +132,10 @@ export default function CityTripsPage() {
           </div>
 
           {/* Tour Packages */}
-          <div className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-center">Voorbeeld Tours</h2>
+          <div className="mb-12 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 md:mb-8 text-center">Voorbeeld Tours</h2>
             
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
               <div className="glass-panel p-8 rounded-xl">
                 <div className="text-5xl mb-4">🌷</div>
                 <h3 className="text-2xl font-bold mb-3">Klassiek Amsterdam</h3>
@@ -187,10 +187,10 @@ export default function CityTripsPage() {
           </div>
 
           {/* What to Expect */}
-          <div className="glass-panel p-8 rounded-2xl mb-16">
-            <h2 className="text-3xl font-bold mb-6">Wat u Kunt Verwachten</h2>
+          <div className="glass-panel p-4 md:p-8 rounded-2xl mb-12 md:mb-16">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">Wat u Kunt Verwachten</h2>
             
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 gap-6 md:gap-8">
               <div>
                 <h3 className="text-xl font-semibold mb-4">✓ Inclusief</h3>
                 <ul className="space-y-3 text-gray-400">
@@ -216,16 +216,16 @@ export default function CityTripsPage() {
           </div>
 
           {/* CTA */}
-          <div className="glass-panel p-12 rounded-2xl text-center bg-gradient-to-br from-primary/10 to-secondary/10">
-            <h2 className="text-4xl font-bold mb-4">Plan Uw Perfecte City Trip!</h2>
-            <p className="text-xl text-gray-300 mb-8">
+          <div className="glass-panel p-6 md:p-12 rounded-2xl text-center bg-gradient-to-br from-primary/10 to-secondary/10">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-4">Plan Uw Perfecte City Trip!</h2>
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 md:mb-8 px-2">
               Bel ons om een op maat gemaakte tour te bespreken
             </p>
-            <div className="flex gap-4 justify-center flex-wrap">
-              <a href="tel:+31634145806" className="btn-primary text-lg px-8 py-4">
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center px-4">
+              <a href="tel:+31634145806" className="btn-primary text-base md:text-lg px-6 md:px-8 py-3 md:py-4 w-full sm:w-auto text-center">
                 📞 +31 6 341 458 06
               </a>
-              <a href="tel:+31687667013" className="glass-panel px-8 py-4 rounded-lg hover:bg-white/10 transition-colors text-lg font-semibold">
+              <a href="tel:+31687667013" className="glass-panel px-6 md:px-8 py-3 md:py-4 rounded-lg hover:bg-white/10 transition-colors text-base md:text-lg font-semibold w-full sm:w-auto text-center">
                 📞 +31 6 876 670 13
               </a>
             </div>
