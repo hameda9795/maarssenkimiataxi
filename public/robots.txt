@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.maarsenkimiataxi.nl/sitemap.xml
+
+# Disallow admin and API routes (if any in future)
+Disallow: /api/
+Disallow: /driver/
+
+# Allow all common bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
