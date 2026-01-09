@@ -142,7 +142,6 @@ export default function CityTripsPage() {
                 <p className="text-gray-400 mb-4">
                   4 uur tour door Amsterdam met stops bij Rijksmuseum, Anne Frank Huis, grachten en Dam.
                 </p>
-                <div className="text-primary font-bold text-xl mb-4">€180 (max 4 personen)</div>
                 <ul className="space-y-2 text-sm text-gray-400">
                   <li>✓ 4 uur rondleiding</li>
                   <li>✓ Alle stops naar wens</li>
@@ -156,7 +155,6 @@ export default function CityTripsPage() {
                 <p className="text-gray-400 mb-4">
                   5 uur tour: Zaanse Schans, Volendam, Marken. Echte Hollandse ervaring!
                 </p>
-                <div className="text-primary font-bold text-xl mb-4">€220 (max 4 personen)</div>
                 <ul className="space-y-2 text-sm text-gray-400">
                   <li>✓ 5 uur tour</li>
                   <li>✓ Windmolens bezoek</li>
@@ -170,7 +168,6 @@ export default function CityTripsPage() {
                 <p className="text-gray-400 mb-4">
                   Hele dag tour: Rotterdam, Den Haag, Delft. Moderne en klassieke architectuur.
                 </p>
-                <div className="text-primary font-bold text-xl mb-4">€350 (max 4 personen)</div>
                 <ul className="space-y-2 text-sm text-gray-400">
                   <li>✓ 8 uur tour</li>
                   <li>✓ 3 steden</li>

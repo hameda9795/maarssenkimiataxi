@@ -108,28 +108,25 @@ export default function LuchthavenvervoerPage() {
               <div className="glass-panel p-8 rounded-xl text-center">
                 <div className="text-5xl mb-4">✈️</div>
                 <h3 className="text-2xl font-bold mb-3">Schiphol Airport</h3>
-                <p className="text-gray-400 mb-4">
+                <p className="text-gray-400">
                   De meest populaire route. Ongeveer 30 minuten vanuit Maarssen.
                 </p>
-                <div className="text-primary font-bold text-2xl">Vanaf €55</div>
               </div>
 
               <div className="glass-panel p-8 rounded-xl text-center">
                 <div className="text-5xl mb-4">✈️</div>
                 <h3 className="text-2xl font-bold mb-3">Rotterdam The Hague Airport</h3>
-                <p className="text-gray-400 mb-4">
+                <p className="text-gray-400">
                   Comfortabele rit naar Rotterdam Airport.
                 </p>
-                <div className="text-primary font-bold text-2xl">Vanaf €85</div>
               </div>
 
               <div className="glass-panel p-8 rounded-xl text-center">
                 <div className="text-5xl mb-4">✈️</div>
                 <h3 className="text-2xl font-bold mb-3">Eindhoven Airport</h3>
-                <p className="text-gray-400 mb-4">
+                <p className="text-gray-400">
                   Betrouwbaar vervoer naar het zuiden.
                 </p>
-                <div className="text-primary font-bold text-2xl">Vanaf €120</div>
               </div>
             </div>
           </div>
