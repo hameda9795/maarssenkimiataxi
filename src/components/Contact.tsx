@@ -56,8 +56,8 @@ export default function Contact() {
                   <div className="text-2xl md:text-3xl">✉️</div>
                   <div>
                     <div className="font-semibold mb-1 text-sm md:text-base">Email Ons</div>
-                    <a href="mailto:kimiataxi@maarssen.nl" className="text-primary hover:underline text-sm md:text-base">
-                      kimiataxi@maarssen.nl
+                    <a href="mailto:taxikimia@gmail.com" className="text-primary hover:underline text-sm md:text-base">
+                      taxikimia@gmail.com
                     </a>
                   </div>
                 </div>

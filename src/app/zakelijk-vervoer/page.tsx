@@ -198,7 +198,7 @@ export default function ZakelijkVervoerPage() {
               <a href="tel:+31634145806" className="btn-primary text-base md:text-lg px-6 md:px-8 py-3 md:py-4 w-full sm:w-auto text-center">
                 📞 +31 6 341 458 06
               </a>
-              <a href="mailto:kimiataxi@maarssen.nl" className="glass-panel px-6 md:px-8 py-3 md:py-4 rounded-lg hover:bg-white/10 transition-colors text-base md:text-lg font-semibold w-full sm:w-auto text-center">
+              <a href="mailto:taxikimia@gmail.com" className="glass-panel px-6 md:px-8 py-3 md:py-4 rounded-lg hover:bg-white/10 transition-colors text-base md:text-lg font-semibold w-full sm:w-auto text-center">
                 ✉️ Email Ons
               </a>
             </div>

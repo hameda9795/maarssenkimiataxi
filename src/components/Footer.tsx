@@ -56,7 +56,7 @@ export default function Footer() {
                 <span className="text-primary">📞</span> +31 6 876 670 13
               </li>
               <li>
-                <span className="text-primary">✉️</span> kimiataxi@maarssen.nl
+                <span className="text-primary">✉️</span> 
               </li>
               <li>
                 <span className="text-primary">📍</span> Maarssen, Nederland

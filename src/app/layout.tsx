@@ -117,7 +117,7 @@ export default function RootLayout({
             },
             "url": "https://www.maarsenkimiataxi.nl",
             "telephone": "+31634145806",
-            "email": "kimiataxi@maarssen.nl",
+            "email": "taxikimia@gmail.com",
             "priceRange": "€€",
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
